@@ -531,9 +531,9 @@ def login_2(uid):
     loop += 1
 
 def new_main():
-    from firebase_client import FirebaseClient
-    from admin import show_success, show_error
-    firebase = FirebaseClient()
+    # from firebase_client import FirebaseClient
+# from admin import show_success, show_error
+# firebase = FirebaseClient()
     global console
     # Pre‑login menu (mirrors ahh)
     def header():
